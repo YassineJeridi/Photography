@@ -6,79 +6,35 @@ body {
 
   font-family: 'Roboto Slab', serif;
 }
-button {
-  height: 40px;
-  width: 100px;
-  margin: 10px auto 10px;
-  background: #000;
-  font-size: 0.8125rem;
-  color: #fff;
-  cursor: pointer;
-  border-color: transparent;
-  border-style: inset;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 600;
-}
-
-button:focus {
-	background-color: #000;
-}
-
 button:hover {
-	color: #930000;
-}
-
-h4,h5{
-	font-family: 'Open Sans', sans-serif;
-}
-
-p{
-	font-family: 'Roboto Slab', serif;
-}
-
-.brand-name {
-  margin: 10px;
-}
-
-.brand-logo{
-  padding-top:8px;
-}
-
-.social {
-	margin: 10px;
+	color: #12dd2d;
 }
 .social > a {
   padding: 5px;
   color: #000;
-
 }
 .social > a:hover {
 	color:#0026ff;
 }
-
 .arrow{
   height: 50px;
   margin-bottom: -100px;
   margin-left: 20px;
 }
-
 /* clear fix */
 .grid:after {
   content: '';
   display: block;
   clear: both;
 }
-
 .grid-item {
   float: left;
 }
-
 .grid-item img {
   display: block;
   max-width: 100%;
   padding: 3%;
 }
-
 .grid-sizer,
 .grid-item {
   width: 33.333%;
@@ -87,7 +43,6 @@ p{
 .pictures {
   transition: transform 0.5s ease-in-out; /* Defines hover effect duration and easing */
 }
-
 .pictures:hover {
   transform: scale(1.1); /* Scales the image down to 80% of its original size */
 }
@@ -96,6 +51,20 @@ p{
   h1 {
     font-size: 40px;
   }
+  .grid-sizer,
+.grid-item {
+  width: 50%;
+}
+}
+@media(max-width:500px)
+{
+  h1 {
+    font-size: 40px;
+  }
+  .grid-sizer,
+.grid-item {
+  width: 100%;
+}
 }
 
 /*

@@ -53,6 +53,16 @@ button:hover {
   }
   .grid-sizer,
 .grid-item {
+  width: 50%;
+}
+}
+@media(max-width:500px)
+{
+  h1 {
+    font-size: 40px;
+  }
+  .grid-sizer,
+.grid-item {
   width: 100%;
 }
 }
