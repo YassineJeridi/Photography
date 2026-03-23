@@ -1,0 +1,20 @@
+# Large image/photo directories - stored locally only
+img/wedding/
+img/orchidee/
+img/fouta/
+img/SBH/
+img/Soutenance Hedi/
+img/Soutenance nessrine/
+img/accademie des elites/
+
+# Raw/large image file types
+*.xmp
+*.XMP
+*.raw
+*.RAW
+*.cr2
+*.CR2
+*.nef
+*.NEF
+*.arw
+*.ARW
